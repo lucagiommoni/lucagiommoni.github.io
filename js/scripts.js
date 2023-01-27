@@ -1,8 +1,29 @@
 //document.getElementById('currentYear').textContent = new Date().getUTCFullYear()
 
 function createNodeFromJson(jsonData) {
+  createComp(jsonData.comps);
+  createCerts(jsonData.certs);
+}
+
+function createComp(comps) {
+  let el = document.getElementById("gridOfCompanies");
+  certs.forEach(
+    (e) =>
+      (el.innerHTML += `<div class="col-12 col-md-3">
+            <a href="${e.src}" target="_blank">
+              <img
+                src="${e.img}"
+                alt="${e.name}"
+                style="width: 100%"
+              />
+            </a>
+          </div>`)
+  );
+}
+
+function createCerts(certs) {
   let el = document.getElementById("gridOfCertifications");
-  jsonData.certs.forEach(
+  certs.forEach(
     (e) =>
       (el.innerHTML += `<div class="col-lg-4 col-sm-6" style="border: 4px solid transparent;">
   <a

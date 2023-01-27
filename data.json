@@ -1,124 +1,146 @@
 {
-    "certs": [
-        {
-            "source": "assets/img/certifications/20210315-project_management_techniques.jpg",
-            "name": "Tecniche di Project Management",
-            "date": "2021-05-15"
-        },
-        {
-            "source": "assets/img/certifications/20210201-Google_Cloud_Platform.jpg",
-            "name": "Google Cloud Platform Fundamentals: Core Infrastructure",
-            "date": "2021-02-01"
-        },
-        {
-            "source": "assets/img/certifications/20210107-Blockchain_A-Z.jpg",
-            "name": "Blockchain A-Z",
-            "date": "2021-01-07"
-        },
-        {
-            "source": "assets/img/certifications/20201128-cert-aws.jpg",
-            "name": "AWS Certified Solution Architect - Associate",
-            "date": "2020-11-28"
-        },
-        {
-            "source": "assets/img/certifications/20191116-EF_SET_Certificate.jpg",
-            "name": "EF SET English Certificate 78/100 (C2 Proficient)",
-            "date": "2019-11-16"
-        },
-        {
-            "source": "assets/img/certifications/20191120-Business-English-Level-7-page.jpg",
-            "name": "Business English Level 7",
-            "date": "2019-11-20"
-        },
-        {
-            "source": "assets/img/certifications/20190703-Business-English-Level-6-page.jpg",
-            "name": "Business English Level 6",
-            "date": "2019-07-03"
-        },
-        {
-            "source": "assets/img/certifications/20190618-awsome_day.jpg",
-            "name": "AWSome Day",
-            "date": "2019-06-18"
-        },
-        {
-            "source": "assets/img/certifications/20190509-AWS-Training-Certification-Certicate-of-Completion-page.jpg",
-            "name": "AWSome Day",
-            "date": "2019-05-09"
-        },
-        {
-            "source": "assets/img/certifications/cert-azure-1140x806.jpg",
-            "name": "Implementing Microsoft Azure Infrastructure Solution",
-            "date": "2018-12-07"
-        },
-        {
-            "source": "assets/img/certifications/cert-ielts.jpg",
-            "name": "IELTS Academic",
-            "date": "2018-09-15"
-        },
-        {
-            "source": "assets/img/certifications/cert-cisco.jpg",
-            "name": "CCNAX - Interconnecting Cisco Networking Devices: Accelerated",
-            "date": "2017-05-12"
-        },
-        {
-            "source": "assets/img/certifications/cert-vmware-01.png",
-            "name": "VMware vRealize Operations Manager for Operators [V6]",
-            "date": "2017-04-07"
-        },
-        {
-            "source": "assets/img/certifications/cert-vmware-02.png",
-            "name": "VMware vSphere: Optimize and Scale [V6]",
-            "date": "2017-03-31"
-        },
-        {
-            "source": "assets/img/certifications/cert-vmware-03.png",
-            "name": "VMware vSphere: Install, Configure, Manage [V6]",
-            "date": "2017-03-07"
-        },
-        {
-            "source": "assets/img/certifications/cert-ansible.jpg",
-            "name": "Automation With Ansible I - DO407",
-            "date": "2017-02-02"
-        },
-        {
-            "source": "assets/img/certifications/cert-docker.jpg",
-            "name": "Docker - OEC112",
-            "date": "2016-11-19"
-        },
-        {
-            "source": "assets/img/certifications/20201219-Kubernetes_Microservices.jpg",
-            "name": "Kubernetes: Microservices",
-            "date": "2020-12-19"
-        },
-        {
-            "source": "assets/img/certifications/20221119-Strategic_planning_Foundations.jpg",
-            "name": "Strategic Planning Foundations",
-            "date": "2022-11-17"
-        },
-        {
-            "source": "assets/img/certifications/20221224-Essential_Lessons_for_FirstTime_Managers.jpg",
-            "name": "Essential Lessons for FirstTime Managers",
-            "date": "2022-12-24"
-        },
-        {
-            "source": "assets/img/certifications/20221224-Becoming_a_Product_Manager_A_Complete_Guide.jpg",
-            "name": "Becoming a Product Manager: A Complete Guide",
-            "date": "2022-12-24"
-        },
-        {
-            "source": "assets/img/certifications/20221229-Migrating_to_Azure.jpg",
-            "name": "Migrating to Azure",
-            "date": "2022-12-29"
-        },
-        {
-            "source": "assets/img/certifications/20230105-Business_Analysis_Essential_Tools_and_Techniques.jpg",
-            "name": "Business Analysis: Essential Tools and Techniques",
-            "date": "2023-01-05"
-        },
-        {
-            "source": "assets/img/certifications/20230127-Azur_Data_Lake_for_Developers.jpg",
-            "name": "Azure Data Lake for Developers",
-            "date": "2023-01-27"
-        }
-    ]
+  "companies": [
+    {
+      "name": "Intesa Sanpaolo",
+      "src": "https://www.intesasanpaolo.com/",
+      "img": "assets/img/companies/intesa-sanpaolo.jpg"
+    },
+    {
+      "name": "Teoresi Group",
+      "src": "https://www.teoresigroup.com/",
+      "img": "assets/img/companies/teoresi-group.png"
+    },
+    {
+      "name": "Stellantis",
+      "src": "https://www.stellantis.com/",
+      "img": "assets/img/companies/stellantis_logo_3.png"
+    },
+    {
+      "name": "MSC Technology",
+      "src": "https://www.msc.com/",
+      "img": "assets/img/companies/msc.png"
+    }
+  ],
+  "certs": [
+    {
+      "source": "assets/img/certifications/20210315-project_management_techniques.jpg",
+      "name": "Tecniche di Project Management",
+      "date": "2021-05-15"
+    },
+    {
+      "source": "assets/img/certifications/20210201-Google_Cloud_Platform.jpg",
+      "name": "Google Cloud Platform Fundamentals: Core Infrastructure",
+      "date": "2021-02-01"
+    },
+    {
+      "source": "assets/img/certifications/20210107-Blockchain_A-Z.jpg",
+      "name": "Blockchain A-Z",
+      "date": "2021-01-07"
+    },
+    {
+      "source": "assets/img/certifications/20201128-cert-aws.jpg",
+      "name": "AWS Certified Solution Architect - Associate",
+      "date": "2020-11-28"
+    },
+    {
+      "source": "assets/img/certifications/20191116-EF_SET_Certificate.jpg",
+      "name": "EF SET English Certificate 78/100 (C2 Proficient)",
+      "date": "2019-11-16"
+    },
+    {
+      "source": "assets/img/certifications/20191120-Business-English-Level-7-page.jpg",
+      "name": "Business English Level 7",
+      "date": "2019-11-20"
+    },
+    {
+      "source": "assets/img/certifications/20190703-Business-English-Level-6-page.jpg",
+      "name": "Business English Level 6",
+      "date": "2019-07-03"
+    },
+    {
+      "source": "assets/img/certifications/20190618-awsome_day.jpg",
+      "name": "AWSome Day",
+      "date": "2019-06-18"
+    },
+    {
+      "source": "assets/img/certifications/20190509-AWS-Training-Certification-Certicate-of-Completion-page.jpg",
+      "name": "AWSome Day",
+      "date": "2019-05-09"
+    },
+    {
+      "source": "assets/img/certifications/cert-azure-1140x806.jpg",
+      "name": "Implementing Microsoft Azure Infrastructure Solution",
+      "date": "2018-12-07"
+    },
+    {
+      "source": "assets/img/certifications/cert-ielts.jpg",
+      "name": "IELTS Academic",
+      "date": "2018-09-15"
+    },
+    {
+      "source": "assets/img/certifications/cert-cisco.jpg",
+      "name": "CCNAX - Interconnecting Cisco Networking Devices: Accelerated",
+      "date": "2017-05-12"
+    },
+    {
+      "source": "assets/img/certifications/cert-vmware-01.png",
+      "name": "VMware vRealize Operations Manager for Operators [V6]",
+      "date": "2017-04-07"
+    },
+    {
+      "source": "assets/img/certifications/cert-vmware-02.png",
+      "name": "VMware vSphere: Optimize and Scale [V6]",
+      "date": "2017-03-31"
+    },
+    {
+      "source": "assets/img/certifications/cert-vmware-03.png",
+      "name": "VMware vSphere: Install, Configure, Manage [V6]",
+      "date": "2017-03-07"
+    },
+    {
+      "source": "assets/img/certifications/cert-ansible.jpg",
+      "name": "Automation With Ansible I - DO407",
+      "date": "2017-02-02"
+    },
+    {
+      "source": "assets/img/certifications/cert-docker.jpg",
+      "name": "Docker - OEC112",
+      "date": "2016-11-19"
+    },
+    {
+      "source": "assets/img/certifications/20201219-Kubernetes_Microservices.jpg",
+      "name": "Kubernetes: Microservices",
+      "date": "2020-12-19"
+    },
+    {
+      "source": "assets/img/certifications/20221119-Strategic_planning_Foundations.jpg",
+      "name": "Strategic Planning Foundations",
+      "date": "2022-11-17"
+    },
+    {
+      "source": "assets/img/certifications/20221224-Essential_Lessons_for_FirstTime_Managers.jpg",
+      "name": "Essential Lessons for FirstTime Managers",
+      "date": "2022-12-24"
+    },
+    {
+      "source": "assets/img/certifications/20221224-Becoming_a_Product_Manager_A_Complete_Guide.jpg",
+      "name": "Becoming a Product Manager: A Complete Guide",
+      "date": "2022-12-24"
+    },
+    {
+      "source": "assets/img/certifications/20221229-Migrating_to_Azure.jpg",
+      "name": "Migrating to Azure",
+      "date": "2022-12-29"
+    },
+    {
+      "source": "assets/img/certifications/20230105-Business_Analysis_Essential_Tools_and_Techniques.jpg",
+      "name": "Business Analysis: Essential Tools and Techniques",
+      "date": "2023-01-05"
+    },
+    {
+      "source": "assets/img/certifications/20230127-Azur_Data_Lake_for_Developers.jpg",
+      "name": "Azure Data Lake for Developers",
+      "date": "2023-01-27"
+    }
+  ]
 }
