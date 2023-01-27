@@ -205,7 +205,8 @@
                                 <i class="fas fa-external-link-alt fa-xs"></i></a>
                         </h5>
                         <p>
-                            The dissertation was about a <b>Java framework developed by me to support the SEO techniques</b> for search engines like Google.
+                            The dissertation was about a <b>Java framework developed by me to support the SEO
+                                techniques</b> for search engines like Google.
                         </p>
 
 
@@ -536,7 +537,8 @@
                 </div>
                 <div class="col-12 col-md-3">
                     <a href="https://www.stellantis.com/" target="_blank">
-                        <img src="./assets/img/companies/stellantis_logo_3.png" alt="fca group logo" style="width: 100%;" />
+                        <img src="./assets/img/companies/stellantis_logo_3.png" alt="fca group logo"
+                            style="width: 100%;" />
                     </a>
                 </div>
                 <div class="col-12 col-md-3">
@@ -838,7 +840,10 @@
     <!-- Footer-->
     <footer class="bg-light py-5">
         <div class="container">
-            <div class="small text-center text-muted">Copyright © 2020 - Luca Giommoni</div>
+            <div class="small text-center text-muted">
+                Copyright © 2020 - <span id="currentYear">2023</span>
+            </div>
+            <div class="small text-center text-muted">Luca Giommoni</div>
             <br>
             <div class="small text-center text-muted"><span>Header Photo by <a
                         href="https://unsplash.com/@johnschno?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">John
@@ -857,6 +862,9 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> -->
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getUTCFullYear()
+    </script>
 </body>
 
 </html>
