@@ -1,4 +1,5 @@
-//document.getElementById('currentYear').textContent = new Date().getUTCFullYear()
+document.getElementById("currentYear").textContent =
+  new Date().getUTCFullYear();
 
 function createNodeFromJson(jsonData) {
   createComp(jsonData.companies);
@@ -45,6 +46,35 @@ function createCerts(certs) {
   );
 }
 
-fetch("./data.json")
+fetch("data.json")
   .then((response) => response.json())
   .then((json) => createNodeFromJson(json));
+
+// Creating the intro section
+fetch("intro.md")
+  .then((res) => res.text())
+  .then((txt) => {
+    const converter = new showdown.Converter();
+    const html = converter.makeHtml(txt);
+    document.getElementById("aboutText").innerHTML = html;
+  });
+
+// Creating the academic section
+fetch("academic.md")
+  .then((res) => res.text())
+  .then((txt) => {
+    const converter = new showdown.Converter();
+    const html = converter.makeHtml(txt);
+    document.getElementById("academicText").innerHTML = html;
+  });
+
+// Creating the work experience section
+fetch("workExp.md")
+  .then((res) => res.text())
+  .then((txt) => {
+    const converter = new showdown.Converter();
+    const html = converter.makeHtml(txt);
+    document.getElementById("workingExperience").innerHTML = html;
+  });
+
+
