@@ -1,13 +1,14 @@
 //document.getElementById('currentYear').textContent = new Date().getUTCFullYear()
 
 function createNodeFromJson(jsonData) {
-  createComp(jsonData.comps);
+  createComp(jsonData.companies);
   createCerts(jsonData.certs);
 }
 
-function createComp(comps) {
+function createComp(companies) {
+  console.log(companies);
   let el = document.getElementById("gridOfCompanies");
-  certs.forEach(
+  companies.forEach(
     (e) =>
       (el.innerHTML += `<div class="col-12 col-md-3">
             <a href="${e.src}" target="_blank">
