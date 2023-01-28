@@ -11,12 +11,12 @@ function createComp(companies) {
   let el = document.getElementById("gridOfCompanies");
   companies.forEach(
     (e) =>
-      (el.innerHTML += `<div class="col-12 col-md-3">
+      (el.innerHTML += `<div class="col-12 col-md-3 text-center">
             <a href="${e.src}" target="_blank">
               <img
                 src="${e.img}"
                 alt="${e.name}"
-                style="width: 100%"
+                style="width: 15em"
               />
             </a>
           </div>`)
