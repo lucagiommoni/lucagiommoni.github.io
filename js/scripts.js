@@ -3,7 +3,7 @@ document.getElementById("currentYear").textContent =
 
 function createNodeFromJson(jsonData) {
   createComp(jsonData.companies);
-  createCerts(jsonData.certs);
+  createCerts(jsonData.certs.sort((a, b) => { return (new Date(b.date) - new Date(a.date)) }));
 }
 
 function createComp(companies) {
