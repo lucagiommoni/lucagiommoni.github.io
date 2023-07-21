@@ -23,6 +23,12 @@
   ],
   "certs": [
     {
+      "source": "assets/img/certifications/20230721-8_Things_You_Must_Know_in_Python.png",
+      "name": "8 Things You Must Know in Python",
+      "link": "https://www.linkedin.com/learning/certificates/af826680f112b804b10a4414df74f0dfc46bfdc8a131a61c6330221fec8bdbf4",
+      "date": "2023-07-21"
+    },
+    {
       "source": "assets/img/certifications/20230720-python_object_oriented_programming.png",
       "name": "Python Object-Oriented Programming",
       "link": "https://www.linkedin.com/learning/certificates/717ab7da2f3cb29ab704c0ad0d8ef4add3ff40d16bba62272f9a5a74da95dfc0",
