@@ -3,7 +3,7 @@ body {
 }
 
 .frame {
-  background-color: #088010;
+  background-color: #0c7b46;
   border-radius: 2rem;
   border: 1rem solid;
   border-bottom-color: #121212;
@@ -47,13 +47,13 @@ animation: blinkline 1.5s linear infinite;
 .console {
   width: 100%;
   height: 100%;
-  border: 3em solid transparent;
+  padding: 2em;
 }
 
 .console::after {
 content: "";
 border-left: .8em solid transparent;
-border-right: .8em solid black;
+border-right: .8em solid currentColor;
 animation: blinker 1.5s linear infinite;
 }
 
