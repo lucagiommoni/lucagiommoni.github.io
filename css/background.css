@@ -1,0 +1,48 @@
+body {
+    background: #00000087;
+}
+
+.frame {
+    background-color: #088010;
+    border-radius: 2rem;
+    border: 1rem solid;
+    border-bottom-color: #121212;
+    border-left-color: #080808;
+    border-right-color: #080808;
+    border-top-color: #020202;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+.screen {
+    display: block;
+    background: transparent;
+    background: linear-gradient(#00800080 50%, rgba(0, 0, 0, 0.25) 50%);
+    background-size: 100% 1px;
+    box-shadow:
+        inset 0 0 18rem black,
+        inset 0 0 3rem black,
+        0 0 10rem black;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.console {
+    width: 100%;
+    height: 100%;
+    border: 3em solid transparent;
+}
+
+.console::after {
+  content: "";
+  border-right: 1em solid black;
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
