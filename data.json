@@ -23,67 +23,73 @@
   ],
   "certs": [
     {
-      "source": "assets/img/certifications/20230721-8_Things_You_Must_Know_in_Python.png",
+      "source": "https://media.licdn.com/dms/image/D4D22AQEiQdgwjlu2oA/feedshare-shrink_1280/0/1690273776586?e=2147483647&v=beta&t=cQ5PO8u-XT5tHNI_Lh_xTyRDhqbIABkM1nm5rv1LiTo",
+      "name": "8 Things You Must Know in Python",
+      "link": "https://www.linkedin.com/learning/certificates/56fa141a48f3711bc4011ae088f1dd83f983fca70b29528d049f896c70a67f1b",
+      "date": "2023-07-21"
+    },
+    {
+      "source": "https://media.licdn.com/dms/image/D4D22AQE4lC1M3ZddAg/feedshare-shrink_1280/0/1689942742870?e=1693440000&v=beta&t=D37X1T58s_50R4-wBygAwOJIzGF9KpmbgjWCEv11urs",
       "name": "8 Things You Must Know in Python",
       "link": "https://www.linkedin.com/learning/certificates/af826680f112b804b10a4414df74f0dfc46bfdc8a131a61c6330221fec8bdbf4",
       "date": "2023-07-21"
     },
     {
-      "source": "assets/img/certifications/20230720-python_object_oriented_programming.png",
+      "source": "https://media.licdn.com/dms/image/D4D22AQEHTX1cLRDvhQ/feedshare-shrink_1280/0/1689844709191?e=1693440000&v=beta&t=E8DyH5xLPeQo1Q2JrOnzXywXnNQE6xC1HSrmpyS3yM0",
       "name": "Python Object-Oriented Programming",
       "link": "https://www.linkedin.com/learning/certificates/717ab7da2f3cb29ab704c0ad0d8ef4add3ff40d16bba62272f9a5a74da95dfc0",
       "date": "2023-07-20"
     },
     {
-      "source": "assets/img/certifications/20230711-learning_python.png",
+      "source": "https://media.licdn.com/dms/image/D4D22AQFbfpa9BUSpeA/feedshare-shrink_1280/0/1689069528509?e=1693440000&v=beta&t=hGWCxPNmQ7YtMv45jf42dVTZvfisXr00wC6eld29-7g",
       "name": "Learning Python",
       "link": "https://www.linkedin.com/learning/certificates/3a7acd67fa8808df9ccb46b424511578ec7e9923c4185072d30c85439c16c45d",
       "date": "2023-07-11"
     },
     {
-      "source": "assets/img/certifications/20230222-cloud_architecture_design_decisions.png",
+      "source": "https://media.licdn.com/dms/image/C4E1FAQECvRMNi_ZgOg/feedshare-document-cover-images_1280/0/1677070895806?e=1690880400&v=beta&t=0Ku44-jRyv3lR6NL9nIEWtxTCWWFq8yBSvJvzbonx0Y",
       "name": "Cloud Architecture: Design Decisions",
       "link": "https://www.linkedin.com/learning/certificates/4410eff2cff2c961c93ad7add376f98dca36e50078c4edbfe666e22ecdae2c96",
       "date": "2023-02-22"
     },
     {
-      "source": "assets/img/certifications/20230127-Microsoft_Azure_Fundamentals_AZ900_Cert_Prep_2_Azure_Architecture_and_Security.jpg",
+      "source": "https://media.licdn.com/dms/image/D4D22AQEhC37WuGOZTQ/feedshare-shrink_1280/0/1689855620140?e=1693440000&v=beta&t=syUF4VXXv59XYszIir_lYW_XClh1JYQu7PMQb_VIyuw",
       "name": "Microsoft Azure Fundamentals (AZ-900) Cert Prep: 2 Azure Architecture and Security",
       "link": "https://www.linkedin.com/learning/certificates/f02883d51011bb24ac03ca5586c8eaa94be0aae2f4d10db1d8f68611287b5c48",
       "date": "2023-02-22"
     },
     {
-      "source": "assets/img/certifications/20230127-Azur_Data_Lake_for_Developers.jpg",
+      "source": "https://media.licdn.com/dms/image/D4D22AQE8xziBBAc9uw/feedshare-shrink_1280/0/1689855180316?e=1693440000&v=beta&t=Gx_5M7Pzh_W_oV8x3EOvHmXxqdm9b8LrHWXNTRWzt48",
       "name": "Azure Data Lake for Developers",
       "link": "https://www.linkedin.com/learning/certificates/97ba747045a3308d4bf3ea7c6ece647af73f3fb61e0663e7055c17b2321a4ea0",
       "date": "2023-01-27"
     },
     {
-      "source": "assets/img/certifications/20230105-Business_Analysis_Essential_Tools_and_Techniques.jpg",
+      "source": "https://media.licdn.com/dms/image/D4D22AQH7RUpvtUSLTg/feedshare-shrink_1280/0/1689855931947?e=1693440000&v=beta&t=ERgZzknAbfHP_8UKp8NBGn4UK_L6dV2YtN__6TdYZhM",
       "name": "Business Analysis: Essential Tools and Techniques",
       "link":"https://www.linkedin.com/learning/certificates/3d0249d042f96f578f50f878a3b57be2757aa8cb02d6c80ed86d608a23e1c1a1",
       "date": "2023-01-05"
     },
     {
-      "source": "assets/img/certifications/20221229-Migrating_to_Azure.jpg",
+      "source": "https://media.licdn.com/dms/image/C4D1FAQGEEmNS6CV-aQ/feedshare-document-cover-images_1280/0/1672664231572?e=1690880400&v=beta&t=VDKbQLheInZKAViZY9AYXYn8AcQjlQN9IcLlonJQUcM",
       "link":"https://www.linkedin.com/learning/certificates/f43f82e0db61dd4b9958f0cd6b5fe57cda7e401e901cee3d72589a98e2201e8c",
       "name": "Migrating to Azure",
       "date": "2022-12-29"
     },
     {
-      "source": "assets/img/certifications/20221224-Essential_Lessons_for_FirstTime_Managers.jpg",
+      "source": "https://media.licdn.com/dms/image/C4D1FAQGVs3gVvQk-cw/feedshare-document-cover-images_1280/0/1672734753897?e=1690880400&v=beta&t=u2qaAay_H7-xugORSq2fq64qq40lALgfS2gWpsQ4zuU",
       "link":"https://www.linkedin.com/learning/certificates/eaac962e92c6afda69f0a4cae2910be43ff33c69d61233060208a0ed8c78808d",
       "name": "Essential Lessons for FirstTime Managers",
       "date": "2022-12-24"
     },
     {
-      "source": "assets/img/certifications/20221224-Becoming_a_Product_Manager_A_Complete_Guide.jpg",
+      "source": "https://media.licdn.com/dms/image/C4D1FAQFa6X114NDxFg/feedshare-document-cover-images_1280/0/1674116028150?e=1690880400&v=beta&t=FYN5w-yEehQ8Laip2ruR6O0wUERq6Y_6fSr9_AV_mtQ",
       "link":"https://www.linkedin.com/learning/certificates/523c752e0654247957f9c689280569afd4dc1310826297d74a28854e94931133",
       "name": "Becoming a Product Manager: A Complete Guide",
       "date": "2022-12-24"
     },
     {
-      "source": "assets/img/certifications/20221119-Strategic_planning_Foundations.jpg",
+      "source": "https://media.licdn.com/dms/image/D4D22AQHc-a1kOH52xQ/feedshare-shrink_1280/0/1689856235607?e=1693440000&v=beta&t=fvgSDCnW2PSZh0xz-kTYEL0xlzmLozX2vWBteNFevLY",
       "link":"https://www.linkedin.com/learning/certificates/5d1918b8c78e4da65f2683071ba67f7d3ba353a1e11fe4a4bfdfa62546d9ee6d",
       "name": "Strategic Planning Foundations",
       "date": "2022-11-17"
@@ -104,7 +110,7 @@
       "date": "2021-01-07"
     },
     {
-      "source": "assets/img/certifications/20201219-Kubernetes_Microservices.jpg",
+      "source": "https://media.licdn.com/dms/image/C4D1FAQH6KsxLEUjRcQ/feedshare-document-cover-images_1280/0/1674728441846?e=1690880400&v=beta&t=L2IjVjDsaeqYN1su_MNrvDcLJRo-JZRjvCE6V2wrfQc",
       "link":"https://www.linkedin.com/learning/certificates/9757eac3403fdc7887653c15633facfeaab9c2adcd9718e4a8a8490b83499438",
       "name": "Kubernetes: Microservices",
       "date": "2020-12-19"
