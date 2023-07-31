@@ -81,4 +81,4 @@ const calls = contentUrls.map(url => fetch(url).then((res) => res.text()))
 
 Promise.all(calls)
   .then(results => fillinSection(results))
-  // .finally(_ => document.getElementById("yow").innerHTML = (new Date().getFullYear() - 2016))
+  .finally(_ => document.getElementById("yow").innerHTML = (new Date().getFullYear() - 2016))
