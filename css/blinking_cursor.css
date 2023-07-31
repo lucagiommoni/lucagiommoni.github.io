@@ -1,0 +1,21 @@
+.blink_me {
+    /*   animation: blinker 1.5s linear infinite; */
+    --caret: currentcolor;
+  }
+  
+  .blink_me::before {
+    content: "";
+    /* animation: typing 13.5s infinite; */
+  }
+  
+  .blink_me::after {
+    content: "";
+    border-right: 1ch solid var(--caret);
+    animation: blinker 1.5s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

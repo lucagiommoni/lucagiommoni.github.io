@@ -1,5 +1,32 @@
-document.getElementById("currentYear").textContent =
-  new Date().getUTCFullYear();
+const contentUrls = [
+  "contents/intro.md",
+  "contents/academic.md",
+  "contents/workExp.md"
+]
+
+document.getElementById("currentYear").innerText = new Date().getUTCFullYear();
+
+function fillinSection(txt) {
+  if (typeof txt === "object" && Array.isArray(txt)) {
+    txt.forEach(e => fillinSection(e))
+  } else {
+    const converter = new showdown.Converter();
+    const html = converter.makeHtml(txt);
+    const el = document.querySelector('#about>div')
+    el.innerHTML += `${html}`
+    enforceHyperLink(el)
+  }
+}
+
+function enforceHyperLink(html) {
+  const links = html.getElementsByTagName('a')
+  if (links.length !== 0) {
+    Array.from(links).forEach(e => {
+      e.setAttribute('target', '_blank')
+      e.setAttribute('rel', 'nofollow noopener noreferrer')
+    })
+  }
+}
 
 function createNodeFromJson(jsonData) {
   createComp(jsonData.companies);
@@ -7,7 +34,7 @@ function createNodeFromJson(jsonData) {
 }
 
 function createComp(companies) {
-  console.log(companies);
+  // console.log(companies);
   let el = document.getElementById("gridOfCompanies");
   companies.forEach(
     (e) =>
@@ -50,31 +77,8 @@ fetch("data.json")
   .then((response) => response.json())
   .then((json) => createNodeFromJson(json));
 
-// Creating the intro section
-fetch("intro.md")
-  .then((res) => res.text())
-  .then((txt) => {
-    const converter = new showdown.Converter();
-    const html = converter.makeHtml(txt);
-    document.getElementById("aboutText").innerHTML = html;
-  });
+const calls = contentUrls.map(url => fetch(url).then((res) => res.text()))
 
-// Creating the academic section
-fetch("academic.md")
-  .then((res) => res.text())
-  .then((txt) => {
-    const converter = new showdown.Converter();
-    const html = converter.makeHtml(txt);
-    document.getElementById("academicText").innerHTML = html;
-  });
-
-// Creating the work experience section
-fetch("workExp.md")
-  .then((res) => res.text())
-  .then((txt) => {
-    const converter = new showdown.Converter();
-    const html = converter.makeHtml(txt);
-    document.getElementById("workingExperience").innerHTML = html;
-  });
-
-
+Promise.all(calls)
+  .then(results => fillinSection(results))
+  // .finally(_ => document.getElementById("yow").innerHTML = (new Date().getFullYear() - 2016))
