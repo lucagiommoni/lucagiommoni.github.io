@@ -29,48 +29,46 @@ function enforceHyperLink(html) {
 }
 
 function createNodeFromJson(jsonData) {
-  createComp(jsonData.companies);
-  createCerts(jsonData.certs.sort((a, b) => { return (new Date(b.date) - new Date(a.date)) }));
+  buildCompaniesElement(jsonData.companies);
+  buildSkillsElement(jsonData.certifications);
+  // buildSkillsElement(jsonData.certifications.sort((a, b) => (new Date(b.date) - new Date(a.date))));
 }
 
-function createComp(companies) {
+function buildCompaniesElement(companies) {
   // console.log(companies);
   let el = document.getElementById("gridOfCompanies");
   companies.forEach(
     (e) =>
-    (el.innerHTML += `<div class="col-12 col-md-3 text-center">
-            <a href="${e.src}" target="_blank">
-              <img
-                src="${e.img}"
-                alt="${e.name}"
-                style="width: 15em"
-              />
-            </a>
-          </div>`)
+    (el.innerHTML += `
+    <div class="col-12 col-md-3 text-center">
+      <a href="${e.src}" target="_blank" rel="nofollow noopener noreferrer">
+        <img src="${e.img}" alt="${e.name}" style="width: 15em" />
+      </a>
+    </div>`)
   );
 }
 
-function createCerts(certs) {
-  let el = document.getElementById("gridOfCertifications");
-  certs.forEach(
-    (e) =>
-    (el.innerHTML += `<div class="col-lg-4 col-sm-6" style="border: 4px solid transparent;">
-  <a
-    class="portfolio-box"
-    href="${e.source}"
-    style="background-image: url(${e.source});"
-  >
-    <div class="portfolio-box-caption">
-      <div class="project-name">
-        ${e.name}
-      </div>
-      <div class="project-category text-white-50">
-        ${e.date}
-      </div>
-    </div>
-  </a>
-</div>`)
-  );
+function buildSkillsElement(certs) {
+  let skills = []
+  certs.forEach(e => { skills = [...skills, ...e.skills] })
+  skills = skills.filter((e, i) => skills.indexOf(e) === i)
+  console.log(skills);
+  const parentDiv = document.getElementById("skillsGrid");
+  skills.forEach(skill => {
+    parentDiv.innerHTML += `<div class="px-2"><div class="w-100 badge bg-light text-primary py-3">${skill}</div></div>`
+  })
+  //   certs.forEach(
+  //     (e) =>
+  //     (el.innerHTML += `
+  //     <div class="col-lg-4 col-sm-6" style="border: 4px solid transparent;">
+  //       <a class="portfolio-box" href="${e.source}" style="background-image: url(${e.source});">
+  //       <div class="portfolio-box-caption">
+  //       <div class="project-name">${e.name}</div>
+  //       <div class="project-category text-white-50">${e.date}</div>
+  //     </div>
+  //   </a>
+  // </div>`)
+  //   );
 }
 
 fetch("data.json")

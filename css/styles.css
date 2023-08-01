@@ -33,6 +33,10 @@ header {
   background-size: cover;
 }
 
+section {
+  padding: 4rem 0;
+}
+
 section:nth-child(odd) {
   background-color: var(--bs-primary);
   color: var(--bs-white);
