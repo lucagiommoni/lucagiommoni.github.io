@@ -55,7 +55,7 @@ function buildSkillsElement(certs) {
   console.log(skills);
   const parentDiv = document.getElementById("skillsGrid");
   skills.forEach(skill => {
-    parentDiv.innerHTML += `<div class="px-2"><div class="w-100 badge bg-light text-primary py-3">${skill}</div></div>`
+    parentDiv.innerHTML += `<div class="px-2"><div class="w-100 badge bg-light text-secondary py-3">${skill}</div></div>`
   })
   //   certs.forEach(
   //     (e) =>

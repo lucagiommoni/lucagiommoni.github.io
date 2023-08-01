@@ -21,6 +21,7 @@
    -->
   <!-- Core theme JS-->
   <script src="js/scripts.js" defer></script>
+  <script src="js/events.js" defer></script>
 
   <!-- <script src="js/bootstrap.js"></script> -->
   <!-- <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> -->
@@ -49,41 +50,29 @@
 
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#mainNav">
 
   <!-- Navigation-->
 
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3">
+  <nav class="fixed-top navbar navbar-expand-lg" data-bs-theme="dark" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#" style="font-family: monospace;">
+      <a class="navbar-brand" href="#" style="font-family: monospace;">
         &gt;_ luca giommoni&nbsp;<span class="blink_me"></span>
       </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#values">Values</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experiences">Experiences</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Certifications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contacts">Contacts</a>
-          </li>
-        </ul>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#values">Values</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#experiences">Experiences</a>
+          <a class="nav-link" href="#portfolio">Certifications</a>
+          <a class="nav-link" href="#contacts">Contacts</a>
+        </div>
       </div>
     </div>
   </nav>
