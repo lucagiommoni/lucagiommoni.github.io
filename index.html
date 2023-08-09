@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <meta name="description" content="Personal Website of Luca Giommoni" />
   <meta name="author" content="Luca Giommoni" />
@@ -36,9 +37,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" crossorigin="anonymous"></script>
 
   <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
-    rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
 
   <!-- Third party plugin CSS-->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
@@ -56,8 +58,10 @@
 
   <nav class="fixed-top navbar navbar-expand-lg" data-bs-theme="dark" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="#" style="font-family: monospace;">
-        &gt;_ luca giommoni&nbsp;<span class="blink_me"></span>
+      <a class="navbar-brand fs-2 p-0" href="#" style="font-family: 'Alex Brush', cursive;;">
+        <!-- <a class="navbar-brand" href="#" style="font-family: monospace;"> -->
+        <!-- &gt;_ luca giommoni&nbsp;<span class="blink_me"></span> -->
+        Luca Giommoni
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +74,7 @@
           <a class="nav-link" href="#values">Values</a>
           <a class="nav-link" href="#skills">Skills</a>
           <a class="nav-link" href="#experiences">Experiences</a>
-          <a class="nav-link" href="#portfolio">Certifications</a>
+          <a class="nav-link" href="#certifications">Certifications</a>
           <a class="nav-link" href="#contacts">Contacts</a>
         </div>
       </div>
@@ -91,14 +95,36 @@
           </p>
         </div>
         <div class="fs-1 mt-3">
+
+          <!-- LinedIn -->
           <a href="https://www.linkedin.com/in/giommoni-luca/" class="text-white text-decoration-none m-3"
             target="_blank" rel="nofollow noopener noreferrer">
             <i class="fab fa-linkedin"></i>
           </a>
-          <a href="https://github.com/lucagiommoni" class="text-white text-decoration-none m-3" target="_blank"
+
+          <!-- Twitter -->
+          <a href="https://twitter.com/luca_giommoni" class="text-white text-decoration-none m-3" target="_blank"
+            rel="nofollow noopener noreferrer">
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://twitter.com/luca_giommoni" class="text-white text-decoration-none m-3" target="_blank"
+            rel="nofollow noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://twitter.com/luca_giommoni" class="text-white text-decoration-none m-3" target="_blank"
+            rel="nofollow noopener noreferrer">
+            <i class="fab fa-facebook"></i>
+          </a>
+
+          <!-- GitHub -->
+          <!-- <a href="https://github.com/lucagiommoni" class="text-white text-decoration-none m-3" target="_blank"
             rel="nofollow noopener noreferrer">
             <i class="fab fa-github"></i>
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
@@ -150,17 +176,172 @@
     </div>
   </section>
 
-  <!-- Technical Skills -->
+  <!-- Skills -->
 
   <section id="skills" class="min-vh-100 row align-content-center justify-content-center px-md-5 m-0 text-center">
+
     <h2>My Skills</h2>
-    <hr class="col-3 my-5 py-4" />
-    <div class="row row-cols-md-4 row-cols-1 fs-3 g-3" id="skillsGrid"></div>
+
+    <hr class="col-3 my-5">
+
+    <h3 class="my-md-5 my-2">Languages</h3>
+
+    <div class="container">
+
+      <div class="px-5 row my-md-1">
+        <div class="col-md-2 col-12 text-md-end text-center pe-5 text-end">English</div>
+        <div class="col-md-10 col-12 my-auto p-0 pe-md-5">
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100" style="height: 1.5rem;">
+            <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark" style="width: 80%">
+              4 – Full Professional Proficiency
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-5 row my-md-1">
+
+        <div class="col-md-2 col-12 text-md-end text-center pe-5 text-end">Spanish</div>
+        <div class="col-md-10 col-12 my-auto p-0 pe-md-5">
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100" style="height: 1.5rem;">
+            <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark" style="width: 40%">
+              2 – Limited Working Proficiency
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-5 row my-md-1">
+        <div class="col-md-2 col-12 text-md-end text-center pe-5 text-end">French</div>
+        <div class="col-md-10 col-12 my-auto p-0 pe-md-5">
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100" style="height: 1.5rem;">
+            <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark" style="width: 20%">
+              1 – Elementary Proficiency
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <h3 class="my-md-5 my-2">Soft Skills</h3>
+
+    <div class="container">
+
+      <div class="px-5 row my-md-1">
+        <div class="col-md-2 col-12 text-md-end text-center pe-5 text-end">Team Management</div>
+        <div class="col-md-10 col-12 my-auto p-0 pe-md-5">
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100" style="height: 1.5rem;">
+            <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark" style="width: 85%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-5 row my-md-1">
+
+        <div class="col-md-2 col-12 text-md-end text-center pe-5 text-end">Project Management</div>
+        <div class="col-md-10 col-12 my-auto p-0 pe-md-5">
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100" style="height: 1.5rem;">
+            <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark" style="width: 80%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-5 row my-md-1">
+        <div class="col-md-2 col-12 text-md-end text-center pe-5 text-end">Problem Solving</div>
+        <div class="col-md-10 col-12 my-auto p-0 pe-md-5">
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100" style="height: 1.5rem;">
+            <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark" style="width: 75%"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <h3 class="my-md-5 my-2">Technical Skills</h3>
+
+    <div class="container">
+
+      <div class="px-5 row my-md-1">
+        <div class="col-md-2 col-12 text-md-end text-center pe-5 text-end">Cloud Platforms</div>
+        <div class="col-md-10 col-12 my-auto p-0 pe-md-5">
+          <div class="progress-stacked" style="height: 1.5rem;">
+            <div class="progress h-100" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0"
+              aria-valuemax="100" style="width: 50%">
+              <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark">Azure</div>
+            </div>
+            <div class="progress h-100" role="progressbar" aria-label="Segment two" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100" style="width: 30%">
+              <div class="progress-bar d-block text-truncate bg-secondary-subtle fw-bold text-dark">AWS</div>
+            </div>
+            <div class="progress h-100" role="progressbar" aria-label="Segment three" aria-valuenow="20"
+              aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+              <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark">GCP</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-5 row my-md-1">
+        <div class="col-md-2 col-12 text-md-end text-center pe-5 text-end">Programming</div>
+        <div class="col-md-10 col-12 my-auto p-0 pe-md-5">
+          <div class="progress-stacked" style="height: 1.5rem;">
+            <div class="progress h-100" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0"
+              aria-valuemax="100" style="width: 20%">
+              <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark">Javascript</div>
+            </div>
+            <div class="progress h-100" role="progressbar" aria-label="Segment two" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100" style="width: 20%">
+              <div class="progress-bar d-block text-truncate bg-secondary-subtle fw-bold text-dark">Python</div>
+            </div>
+            <div class="progress h-100" role="progressbar" aria-label="Segment three" aria-valuenow="20"
+              aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+              <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark">SQL</div>
+            </div>
+            <div class="progress h-100" role="progressbar" aria-label="Segment three" aria-valuenow="20"
+              aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+              <div class="progress-bar d-block text-truncate bg-secondary-subtle fw-bold text-dark">PHP</div>
+            </div>
+            <div class="progress h-100" role="progressbar" aria-label="Segment three" aria-valuenow="20"
+              aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+              <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark">Java</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-5 row my-md-1">
+        <div class="col-md-2 col-12 text-md-end text-center pe-5 text-end">IT Systems</div>
+        <div class="col-md-10 col-12 my-auto p-0 pe-md-5">
+          <div class="progress-stacked" style="height: 1.5rem;">
+            <div class="progress h-100" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0"
+              aria-valuemax="100" style="width: 50%">
+              <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark">Linux/Unix</div>
+            </div>
+            <div class="progress h-100" role="progressbar" aria-label="Segment two" aria-valuenow="30" aria-valuemin="0"
+              aria-valuemax="100" style="width: 30%">
+              <div class="progress-bar d-block text-truncate bg-secondary-subtle fw-bold text-dark">Windows Server</div>
+            </div>
+            <div class="progress h-100" role="progressbar" aria-label="Segment three" aria-valuenow="20"
+              aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+              <div class="progress-bar d-block text-truncate bg-info fw-bold text-dark">Kubernetes & Docker</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </section>
 
   <!-- Experiences -->
 
-  <section id="skills" class="min-vh-100 row align-content-center justify-content-center px-md-5 m-0 text-center">
+  <section id="experiences" class="min-vh-100 row align-content-center justify-content-center px-md-5 m-0 text-center">
     <h2>Experiences</h2>
     <hr class="col-3 my-5 py-4" />
     <div class="row justify-content-center align-items-center" id="gridOfCompanies"></div>
@@ -168,12 +349,31 @@
 
   <!-- Certifications-->
 
-  <section id="skills" class="min-vh-100 row align-content-center justify-content-center px-md-5 m-0 text-center">
+  <section id="certifications"
+    class="min-vh-100 row align-content-center justify-content-center px-md-5 m-0 text-center">
+
     <h2>My Certifications</h2>
-    <hr class="col-3 my-5 py-4" />
-    <div class="container-fluid p-0">
-      <div class="row no-gutters justify-content-center pb-5 pt-5" id="gridOfCertifications"></div>
+
+    <hr class="col-3 my-5" />
+
+    <div class="row justify-content-center">
+      <div class="col-md-5 col-12">
+
+        <div id="certImgCarousel_01" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-inner"></div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#certImgCarousel_01" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#certImgCarousel_01" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </div>
     </div>
+
   </section>
 
   <!-- Contact-->
@@ -184,27 +384,30 @@
         <h2 class="mt-0">Let's Get In Touch!</h2>
         <hr class="my-4 col-1">
         <div class="fs-1 mt-3">
+          <!-- LinedIn -->
           <a href="https://www.linkedin.com/in/giommoni-luca/" class="text-decoration-none m-3" target="_blank"
             rel="nofollow noopener noreferrer">
             <i class="fab fa-linkedin"></i>
           </a>
-          <a href="https://github.com/lucagiommoni" class="text-decoration-none m-3" target="_blank"
+
+          <!-- Twitter -->
+          <a href="https://twitter.com/luca_giommoni" class="text-decoration-none m-3" target="_blank"
             rel="nofollow noopener noreferrer">
-            <i class="fab fa-github"></i>
+            <i class="fab fa-twitter"></i>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://twitter.com/luca_giommoni" class="text-decoration-none m-3" target="_blank"
+            rel="nofollow noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://twitter.com/luca_giommoni" class="text-decoration-none m-3" target="_blank"
+            rel="nofollow noopener noreferrer">
+            <i class="fab fa-facebook"></i>
           </a>
         </div>
-        <!-- <p class="h3 text-muted my-5">Leave me a message</p>
-        <form class="col-5 text-start">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Write yout email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Write your message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Send</button>
-        </form> -->
       </div>
     </div>
   </section>

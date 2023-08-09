@@ -73,7 +73,7 @@
       ]
     },
     {
-      "source": "https://media.licdn.com/dms/image/C4E1FAQECvRMNi_ZgOg/feedshare-document-cover-images_1280/0/1677070895806?e=1690880400&v=beta&t=0Ku44-jRyv3lR6NL9nIEWtxTCWWFq8yBSvJvzbonx0Y",
+      "source": "https://media.licdn.com/dms/image/C4E1FAQECvRMNi_ZgOg/feedshare-document-cover-images_1280/0/1677070895806?e=1692183600&v=beta&t=IAbWMWC6e7lkANjDxsydP7qdK90rpa4hvduBG6tS20g",
       "name": "Cloud Architecture: Design Decisions",
       "link": "https://www.linkedin.com/learning/certificates/4410eff2cff2c961c93ad7add376f98dca36e50078c4edbfe666e22ecdae2c96",
       "date": "2023-02-22",
@@ -113,9 +113,9 @@
       ]
     },
     {
-      "source": "https://media.licdn.com/dms/image/C4D1FAQGEEmNS6CV-aQ/feedshare-document-cover-images_1280/0/1672664231572?e=1690880400&v=beta&t=VDKbQLheInZKAViZY9AYXYn8AcQjlQN9IcLlonJQUcM",
-      "link": "https://www.linkedin.com/learning/certificates/f43f82e0db61dd4b9958f0cd6b5fe57cda7e401e901cee3d72589a98e2201e8c",
+      "source": "https://media.licdn.com/dms/image/C4D1FAQGEEmNS6CV-aQ/feedshare-document-cover-images_1280/0/1672664231572?e=1692183600&v=beta&t=eF6WPN0EhJ4kn2B13kJZa5hVsJnXGP0uiI09-t9DxXA",
       "name": "Migrating to Azure",
+      "link": "https://www.linkedin.com/learning/certificates/f43f82e0db61dd4b9958f0cd6b5fe57cda7e401e901cee3d72589a98e2201e8c",
       "date": "2022-12-29",
       "skills": [
         "Cloud Computing",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "source": "https://media.licdn.com/dms/image/C4D1FAQGVs3gVvQk-cw/feedshare-document-cover-images_1280/0/1672734753897?e=1690880400&v=beta&t=u2qaAay_H7-xugORSq2fq64qq40lALgfS2gWpsQ4zuU",
+      "source": "https://media.licdn.com/dms/image/C4D1FAQGVs3gVvQk-cw/feedshare-document-cover-images_1280/0/1672734753897?e=1692183600&v=beta&t=SCmIIhTOjq_k0Ku09wMBr4xuvRLk2iMYMnRsIXw7vb0",
       "link": "https://www.linkedin.com/learning/certificates/eaac962e92c6afda69f0a4cae2910be43ff33c69d61233060208a0ed8c78808d",
       "name": "Essential Lessons for First-Time Managers",
       "date": "2022-12-24",
@@ -134,7 +134,7 @@
       ]
     },
     {
-      "source": "https://media.licdn.com/dms/image/C4D1FAQFa6X114NDxFg/feedshare-document-cover-images_1280/0/1674116028150?e=1690880400&v=beta&t=FYN5w-yEehQ8Laip2ruR6O0wUERq6Y_6fSr9_AV_mtQ",
+      "source": "https://media.licdn.com/dms/image/C4D1FAQFa6X114NDxFg/feedshare-document-cover-images_1280/0/1674116028150?e=1692183600&v=beta&t=SYr8UakOKJgYUThnBvOqPoXce50o2B1OLuh4RyxYa6I",
       "link": "https://www.linkedin.com/learning/certificates/523c752e0654247957f9c689280569afd4dc1310826297d74a28854e94931133",
       "name": "Becoming a Product Manager: A Complete Guide",
       "date": "2022-12-24",
@@ -183,9 +183,9 @@
       ]
     },
     {
-      "source": "https://media.licdn.com/dms/image/C4D1FAQH6KsxLEUjRcQ/feedshare-document-cover-images_1280/0/1674728441846?e=1690880400&v=beta&t=L2IjVjDsaeqYN1su_MNrvDcLJRo-JZRjvCE6V2wrfQc",
-      "link": "https://www.linkedin.com/learning/certificates/9757eac3403fdc7887653c15633facfeaab9c2adcd9718e4a8a8490b83499438",
+      "source": "https://media.licdn.com/dms/image/C4D1FAQH6KsxLEUjRcQ/feedshare-document-cover-images_1280/0/1674728441846?e=1692183600&v=beta&t=DTV3i5Ay3kQYm7lKZSEKYzHPVIDuvpO96tue54lqEwI",
       "name": "Kubernetes: Microservices",
+      "link": "https://www.linkedin.com/learning/certificates/9757eac3403fdc7887653c15633facfeaab9c2adcd9718e4a8a8490b83499438",
       "date": "2020-12-19",
       "skills": [
         "Kubernetes",
@@ -214,6 +214,7 @@
     {
       "source": "assets/img/certifications/20191116-EF_SET_Certificate.jpg",
       "name": "EF SET English Certificate 78/100 (C2 Proficient)",
+      "link":"https://www.efset.org/cert/CuQZao",
       "date": "2019-11-16",
       "skills": [
         "English"
