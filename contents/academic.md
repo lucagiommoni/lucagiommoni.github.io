@@ -4,7 +4,7 @@
 
 ### Master Degree in Computer & Software Engineering
 
-2018, [Politecnico di Torino](https://www.polito.it/en)
+2018, <a href="https://www.polito.it/en/" target="_blank" rel="nofollow noopener noreferrer">Politecnico di Torino<a/>
 
 #### Main occupational skills
 
@@ -22,7 +22,7 @@ Sponsored by Intesa Sanpaolo, I created a Cloud micro-service framework for the 
 
 ### Bachelor Degree in Electronics Engineering
 
-2015, [Università degli Studi di Perugia](https://www.ing.unipg.it/en/)
+2015, <a href="https://www.ing.unipg.it/en/" target="_blank" rel="nofollow noopener noreferrer">Università degli Studi di Perugia<a/>
 
 #### Main occupational skills
 

@@ -22,7 +22,6 @@ function fillinSection(txt) {
     const html = converter.makeHtml(txt);
     const el = document.querySelector('#about>div')
     el.innerHTML += `${html}`
-    enforceHyperLink(el)
   }
 }
 
@@ -72,15 +71,5 @@ function createNodeFromJson(jsonData) {
 `
     })
   })
-}
-
-function enforceHyperLink(html) {
-  const links = html.getElementsByTagName('a')
-  if (links.length !== 0) {
-    Array.from(links).forEach(e => {
-      e.setAttribute('target', '_blank')
-      e.setAttribute('rel', 'nofollow noopener noreferrer')
-    })
-  }
 }
 

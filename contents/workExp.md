@@ -2,11 +2,15 @@
 
 <hr class="border-light my-4" />
 
-### [MSC Technology](https://www.msctechnology-italy.com/) (2021 - Now)
+### <a href="https://www.msc.com/" target="_blank" rel="nofollow noopener noreferrer">MSC - Mediterranean Shipping Company<a/>
 
 <br>
 
-#### Cloud Migration Coordinator
+#### Technical Product Manager
+
+<br>
+
+##### Cloud Migration
 
 With the aim of providing always-on, highly reliable and scalable ERP software to shipping agencies belonging to the Company, I am actively participating in the migration of the software to **Microsoft Azure**. I run the scoping and gap analysis with the agencies,overseeing the overall setup and configuration along with the _maintenance and cost saving_ operations. I am also supervising all the phases from the beginning to the conclusion of each migration project, working strictly with product owners, scrum teams and the agency members to get deliverables done within the preset milestones.
 
@@ -18,13 +22,13 @@ Keeping software updated on all agencies around the world is a particularly impo
 
 <br>
 
-#### L3 Application Support Management
+#### Advanced Application Support
 
 I lead a team that oversees the assessment and the addressing of major L3 incidents related to the in-house developed ERP product used by the MSC shipping agencies all over the world. We also manage new implementations requests and product improvements, collaborating with functional, development and testing teams. When a major incident, an improvement or a new request comes, I interface with functional team for process validation and approval and, after that, I design the technical solution.
 
 <br><br>
 
-### [Teoresi S.p.A.](http://www.teoresigroup.com/) – [Stellantis NV](https://www.fcagroup.com/en-US/Pages/home.aspx) (2019 - 2020)
+### <a href="http://www.teoresigroup.com/" target="_blank" rel="nofollow noopener noreferrer">Teoresi S.p.A.<a/> & <a href="https://www.stellantis.com/" target="_blank" rel="nofollow noopener noreferrer">Stellantis NV<a/>
 
 <br>
 
@@ -50,7 +54,7 @@ Regarding firmware/software updates, I coordinated the program concerning the Ov
 
 <br><br>
 
-### [Intesa Sanpaolo S.p.A.](https://group.intesasanpaolo.com/en/) (2016 - 2019)
+### <a href="https://intesasanpaolo.com/" target="_blank" rel="nofollow noopener noreferrer">Intesa Sanpaolo S.p.A.<a/>
 
 <br>
 
