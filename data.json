@@ -214,7 +214,7 @@
     {
       "source": "assets/img/certifications/20191116-EF_SET_Certificate.jpg",
       "name": "EF SET English Certificate 78/100 (C2 Proficient)",
-      "link":"https://www.efset.org/cert/CuQZao",
+      "link": "https://www.efset.org/cert/CuQZao",
       "date": "2019-11-16",
       "skills": [
         "English"
@@ -323,5 +323,43 @@
       ]
     }
   ],
-  "projects": []
+  "projects": [],
+  "socials": [
+    {
+      "name": "instagram",
+      "class": "fab fa-instagram",
+      "link": "",
+      "enabled": false
+    },
+    {
+      "name": "facebook",
+      "class": "fab fa-facebook",
+      "link": "",
+      "enabled": false
+    },
+    {
+      "name": "twitter",
+      "class": "fab fa-twitter",
+      "link": "https://twitter.com/luca_giommoni",
+      "enabled": true
+    },
+    {
+      "name": "linkedin",
+      "class": "fab fa-linkedin",
+      "link": "https://www.linkedin.com/in/giommoni-luca/",
+      "enabled": true
+    },
+    {
+      "name": "youtube",
+      "class": "fab fa-youtube",
+      "link": "",
+      "enabled": false
+    },
+    {
+      "name": "github",
+      "class": "fab fa-github",
+      "link": "",
+      "enabled": false
+    }
+  ]
 }

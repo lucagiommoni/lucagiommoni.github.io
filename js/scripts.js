@@ -49,13 +49,28 @@ function createNodeFromJson(jsonData) {
   // Build Certifications Carousel
 
   const carousel = document.querySelector('#certImgCarousel_01 .carousel-inner')
-  jsonData.certifications.forEach((cert,i) => {
+  jsonData.certifications.forEach((e, i) => {
     const active = i === 0 ? 'active' : ''
     carousel.innerHTML += `
 <div class="carousel-item ${active}">
-  <img src="${cert.source}" class="d-block w-100" alt="${cert.name}">
+  <img src="${e.source}" class="d-block w-100" alt="${e.name}">
 </div>
 `
+  })
+
+  // Build Socials
+
+  const socials = Array.from(document.getElementsByClassName('socials'))
+  jsonData.socials.filter(e => e.enabled).forEach((e, i) => {
+    const active = i === 0 ? 'active' : ''
+    socials.forEach(s => {
+      s.innerHTML += `
+<a href="${e.link}" class="text-reset text-decoration-none m-3"
+  target="_blank" rel="nofollow noopener noreferrer">
+  <i class="${e.class}"></i>
+</a>
+`
+    })
   })
 }
 
