@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+header,
+section,
+nav {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav {
+  transition: background-color .5s ease;
+}
+
+header {
+  background: linear-gradient(to bottom,
+      rgba(92, 77, 66, 0.8) 0%,
+      rgba(92, 77, 66, 0.8) 100%),
+    url("../assets/img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+section {
+  padding: 6rem 0;
+  line-height: 2;
+  text-align: justify;
+  font-size: 1.25rem;
+}
+
+section:nth-child(odd) {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+
+#about a {
+  color: inherit;
+}
+
+#about h2 {
+  text-align: center;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  /* word-break: break-all; */
+  display: block;
+}
